@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltimateStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-color:white;margin:0;padding:0">
+    <nav id="nav-bar" style="background-color:aqua; height:50px">
+        <ul style="display:flex; gap:40px; list-style:none; align-items:center; margin:0;">
+            <div class="icon" style="display: flex; align-items: center; gap: 5px;margin-top:8px">
+                <p style="font-size: 24px; font-weight: bold; margin: 0;">Ultimatestore</p>
+                <i class="fa fa-book" style="font-size: 24px;"></i>
+            </div>
+            <li style="font-size:24px;padding-left:600px; margin-top:8px"><a href="/pages/homepage.html">Home</a></li>
+            <li style="font-size:24px; margin-top:8px"><a href="/pages/Categoriespage.html">Product</a></li>
+            <li style="font-size:24px; margin-top:8px"><a href="/pages/AboutUspage.html">About us</a></li>
+            <li style="font-size:24px; margin-top:8px"><a href="/pages/ContactUspage.html">Contact us</a>></li>
+            <li><i class="fa fa-heart-o" style="padding-left:400px;font-size:24px;margin-top:8px"></i></li>
+            <li><a href="/pages/ShoppingCartpage.html"><i class="fa fa-shopping-cart" style="font-size: 24px; color: black;margin-top:8px"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Modal (cart) -->
+    <div style="display: block; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); padding-top: 60px;">
+        <div style="background-color: white; margin: 5% auto; padding: 20px; border-radius: 10px; width: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <span style="color: black; font-size: 30px; font-weight: bold; position: absolute; top: 10px; right: 25px; cursor: pointer;">&times;</span>
+            <h2>Your Items in Cart</h2>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <!-- Cart item 1 -->
+                <li style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd;">
+                    <img src="/images/EducationCurriculum/networkSecurity.webp" alt="network security" style="width: 50px; height: 50px; margin-right: 10px; object-fit: cover;">
+                    <span>Network Security</span>
+                    <span>R399.99</span>
+                </li>
+                <!-- Cart item 2 -->
+                <li style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd;">
+                    <img src="/images/Biographies/washingtonBook.jpg" alt="washington book" style="width: 50px; height: 50px; margin-right: 10px; object-fit: cover;">
+                    <span>Washington Biography</span>
+                    <span>R219.94</span>
+                </li>
+                <!-- Cart item 3 -->
+                <li style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd;">
+                    <img src="/images/LiteratureFiction/childrensLiterature.jpg" alt="children literature" style="width: 50px; height: 50px; margin-right: 10px; object-fit: cover;">
+                    <span>Children's Literature</span>
+                    <span>R245.99</span>
+                </li>
+            </ul>
+            <p style="margin-top: 20px; font-weight: bold;">Total: R985.73</p>
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <button style="background-color:green; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; width: 100%;"><a href="/pages/CheckOutpage.html">Checkout</a></button>
+                <button style="background-color: red; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; width: 100%;"><a href="/Bookstore.html">Clear Cart</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
