@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltimateStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <ul>
+            <div class="icon">
+                <p id="store-name">Ultimatestore</p>
+                <i class="fa fa-book"></i>
+            </div>
+            <li id="home-nav"><a href="./homepage.html">Home</a></li>
+            <li class="nav-elements"><a href="./Categoriespage.html">Product</a></li>
+            <li class="nav-elements"><a href="./AboutUspage.html">About us</a></li>
+            <li class="nav-elements"><a href="./ContactUspage.html">Contact us</a></li>
+            <li><a href="./WishListpage.html"><i class="fa fa-heart-o"></i></a></li>
+            <li><a href="./ShoppingCartpage.html"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Modal (cart) -->
+    <div class="container-cart">
+        <div class="inner-container-cart">
+            <span class="times">&times;</span>
+            <h2>Your Items in Cart</h2>
+            <ul class="cart-items">
+                <!-- Cart item 1 -->
+                <li class="item-in-cart">
+                    <img src="./images/EducationCurriculum/networkSecurity.webp" alt="network security">
+                    <span>Network Security</span>
+                    <span>R399.99</span>
+                </li>
+                <!-- Cart item 2 -->
+                <li class="item-in-cart">
+                    <img src="./images/Biographies/washingtonBook.jpg" alt="washington book">
+                    <span>Washington Biography</span>
+                    <span>R219.94</span>
+                </li>
+                <!-- Cart item 3 -->
+                <li class="item-in-cart">
+                    <img src="./images/LiteratureFiction/childrensLiterature.jpg" alt="children literature">
+                    <span>Children's Literature</span>
+                    <span>R245.99</span>
+                </li>
+            </ul>
+            <p class="total-due">Total: R985.73</p>
+            <div class="btns-container">
+                <a href="./CheckOutpage.html"><button class="continue-btn">Checkout</button></a>
+                <a href="./Bookstore.html"><button class="clear-btn">Clear Cart</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
