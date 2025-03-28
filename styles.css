@@ -695,6 +695,99 @@ p {
 .wishlist-icon:hover {
     color: blueviolet;
 }
+/* About Us Styles */
+.about-us-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#about-us-heading {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#welcome-text, #motivation {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#bookstore-text {
+    font-weight: bold;
+    color: #008CBA;
+}
+
+#offers {
+    font-style: italic;
+    color: green;
+}
+
+#offers-description {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+#products {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#products li {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 8px;
+}
+/* Contact Details Footer */
+.contact-details {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.contact-heading {
+    color: #008CBA;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#address {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#address a {
+    color: #008CBA;
+    text-decoration: none;
+}
+
+#address a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
 
 /* Responsiveness */
 @media (max-width: 768px) {
@@ -787,6 +880,24 @@ p {
     .continue-shopping-btn, .go-home-btn {
         width: 100%;
         margin: 5px 0;
+    }
+    .about-us-container {
+        padding: 15px;
+    }
+
+    #about-us-heading {
+        font-size: 1.8rem;
+    }
+
+    #welcome-text, #motivation, #products li {
+        font-size: 1rem;
+    }
+    .contact-details {
+        padding: 15px;
+    }
+
+    .contact-heading {
+        font-size: 1.3rem;
     }
 }
 
@@ -888,4 +999,19 @@ p {
     .order-btns {
         flex-direction: column;
     }
+    #about-us-heading {
+        font-size: 1.5rem;
+    }
+
+    #welcome-text, #motivation, #products li {
+        font-size: 0.9rem;
+    }
+    .contact-heading {
+        font-size: 1.2rem;
+    }
+
+    #address {
+        font-size: 1rem;
+    }
+
 }
